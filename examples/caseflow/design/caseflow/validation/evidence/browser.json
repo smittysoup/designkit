@@ -1,0 +1,31 @@
+{
+  "executed_at": "2026-11-23T18:35:57.980Z",
+  "browser": "157.0.8103.79",
+  "level": "simulation",
+  "source_hashes": {
+    "experience/prototype/app.js": "6d6056eecc8cdae0e20684b5fbf43694e2da40896036a0cbfc5f728a1f1bd95e",
+    "experience/prototype/index.html": "5e39b4ecc3fde4ef6a3c17a535fac6bba8499c2c304f3ea3267b5fbf7c1aa081"
+  },
+  "observations": [
+    "Empty answer rejected",
+    "Wrong role cannot answer",
+    "Answer persists after reload",
+    "Phase inspection does not advance state",
+    "Requester cannot mark specialist review",
+    "Specialist cannot approve",
+    "Revision invalidates package review",
+    "Human final decision recorded",
+    "Specialist retry restores saved context",
+    "Retry budget enforced",
+    "Cancellation stops preparation",
+    "Mobile viewport has no horizontal overflow",
+    "Keyboard reaches answer action",
+    "No browser JavaScript errors"
+  ],
+  "limitations": [
+    "No live business agent",
+    "No production authorization or scheduling",
+    "No human stakeholder acceptance",
+    "Emulated mobile viewport, not physical device"
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "source": "architecture/diagrams/entity-model.mmd",
+    "output": "architecture/diagrams/rendered/entity-model.svg",
+    "sha256": "df9eaca6e46d02fd9abca50c2b9ab98171dd7a86284ca7c3ddccc78047fcd4b4"
+  },
+  {
+    "source": "architecture/diagrams/data-flow.mmd",
+    "output": "architecture/diagrams/rendered/data-flow.svg",
+    "sha256": "26ca75e727fc80f1be1f44c006ff375fe9cf5bb6c9c4f7198a1625a5da80251d"
+  },
+  {
+    "source": "architecture/diagrams/process-flows/current-process.mmd",
+    "output": "architecture/diagrams/rendered/current-process.svg",
+    "sha256": "a340c99b6303994a1cec40ee4394ecc9410f0c3990293e914abd859f9934ee50"
+  },
+  {
+    "source": "architecture/diagrams/process-flows/agentic-process.mmd",
+    "output": "architecture/diagrams/rendered/agentic-process.svg",
+    "sha256": "12cf65ce998ccaec7f53dda2be5d86009a1f67fb3bca0695044d860d4d6d0ead"
+  }
+]

@@ -1,0 +1,715 @@
+{
+  "schema_version": "1.0",
+  "toolkit_version": "0.1.0",
+  "initiative": {
+    "id": "caseflow",
+    "process": "Workshop case preparation",
+    "outcome": "A grounded package with human final judgment",
+    "scope": "Clarification, preparation, revision and recovery for one synthetic case",
+    "synthetic": true
+  },
+  "artifacts": [
+    {
+      "id": "ART-2",
+      "path": "architecture/contracts/README.md",
+      "sha256": "8acb3812502749a876a7fbc20da5aab57d35a4b2a3da180d4ad7ea70a5e73d40",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-3",
+      "path": "architecture/contracts/operations.json",
+      "sha256": "554aea9f5a2f6042efc3baf9c32f02d45944f691aa9fbf77a3e2a5fdb2ed2d8c",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-4",
+      "path": "architecture/data-model.md",
+      "sha256": "b5aa554793a05a490ba4e536f4e3bb04b3eb09b92acd753c363bf469ac1a148e",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-6",
+      "path": "architecture/diagrams/data-flow.mmd",
+      "sha256": "26ca75e727fc80f1be1f44c006ff375fe9cf5bb6c9c4f7198a1625a5da80251d",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-7",
+      "path": "architecture/diagrams/entity-model.mmd",
+      "sha256": "df9eaca6e46d02fd9abca50c2b9ab98171dd7a86284ca7c3ddccc78047fcd4b4",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-9",
+      "path": "architecture/diagrams/process-flows/agentic-process.mmd",
+      "sha256": "12cf65ce998ccaec7f53dda2be5d86009a1f67fb3bca0695044d860d4d6d0ead",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-10",
+      "path": "architecture/diagrams/process-flows/current-process.mmd",
+      "sha256": "a340c99b6303994a1cec40ee4394ecc9410f0c3990293e914abd859f9934ee50",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-11",
+      "path": "architecture/state-transitions.md",
+      "sha256": "5b27559619f7d6e374084fe4a14b95218b15249d034788c31dca405e2b285682",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-12",
+      "path": "brd.md",
+      "sha256": "ec422d7d748c2067739558ddd6606e0b389b25cb50d4a720f54eed92c035e6a7",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-13",
+      "path": "constitution.md",
+      "sha256": "3ac610da38ce7f895e7de151883cf56fe262a41020faae0234515ce75382b681",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-14",
+      "path": "decisions.md",
+      "sha256": "05a10877392499a4f633f74343075d4f361fbd6f291b2498321093295b6ca619",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-16",
+      "path": "experience/design-guidance.md",
+      "sha256": "65e5333f4c0123f9876464f060d7c14940d6476ad0f7c2675d312f812a9fa31c",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-17",
+      "path": "experience/journeys.md",
+      "sha256": "4d09a3a45dae184dd07e504d6df3a18c167c5225bf50445d50a913982047de1a",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-19",
+      "path": "experience/prototype/app.js",
+      "sha256": "6d6056eecc8cdae0e20684b5fbf43694e2da40896036a0cbfc5f728a1f1bd95e",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-20",
+      "path": "experience/prototype/index.html",
+      "sha256": "5e39b4ecc3fde4ef6a3c17a535fac6bba8499c2c304f3ea3267b5fbf7c1aa081",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-21",
+      "path": "experience/screens.json",
+      "sha256": "b1bbee1a238fc2b13aa9a162061ffc5caa4f698e4530f53307ffd69e1c9081c7",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-23",
+      "path": "handoff/reconciliation.md",
+      "sha256": "6153b8110ad622466b2c2f919db4b017776772f7a053af60bfa4c44cfffc4d16",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-24",
+      "path": "handoff/speckit-input.md",
+      "sha256": "de377c82ebb01c6061f1b125b8e7960b63b451805273ecce3e6b0edad3f7e424",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-25",
+      "path": "handoff/traceability.json",
+      "sha256": "de36703f6fca2dbcddd752109b33c6a19afcc27ae586c10235b2ec14f1ae4190",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-26",
+      "path": "open-questions.md",
+      "sha256": "c8854b3e412d83d0923483a51a58d478ed9ac434f29fed9fb9121cb4fbdf838e",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-28",
+      "path": "transformation/agent-catalog.md",
+      "sha256": "689a018fa408d4b9f30ceab00e93c22493eef20bf0d000013fee139c812bd18f",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-29",
+      "path": "transformation/agentic-process.md",
+      "sha256": "7ee49cfac819328ace019fc572b9b3a667f14492ca2224f3aea80620e2e931a1",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-30",
+      "path": "transformation/current-process.md",
+      "sha256": "31a827a55a8f7c07c1bbf4ff540c3da8bdd20c3496e1ccb72ea3a98a436b14ee",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-31",
+      "path": "transformation/evaluation-plan.md",
+      "sha256": "c4fdf3ba0fed2f55735d580b0e499b69203ef050ebc6eca27a56b38e291a5ff8",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-33",
+      "path": "validation/report.md",
+      "sha256": "29a5e6311f8bd0ebd11667f5e35ffcb630e71e600414598ef091b2980ced2d13",
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-34",
+      "path": "architecture/diagrams/rendered/agentic-process.svg",
+      "review_state": "draft",
+      "sha256": "b4b059357abe2fd11b6b337edf72695b24c9aee9d089393541461f7fa7f81b08"
+    },
+    {
+      "id": "ART-35",
+      "path": "architecture/diagrams/rendered/current-process.svg",
+      "review_state": "draft",
+      "sha256": "28feaace30ac316aac38bc8f7573e9aaf490dbbbe58907375b4e9f31ee71fd02"
+    },
+    {
+      "id": "ART-36",
+      "path": "architecture/diagrams/rendered/data-flow.svg",
+      "review_state": "draft",
+      "sha256": "f33b473b5f41b2832e51ab759c4c81d04a1ea8dd5d5d565ff826894fa1555bd4"
+    },
+    {
+      "id": "ART-37",
+      "path": "architecture/diagrams/rendered/entity-model.svg",
+      "review_state": "draft",
+      "sha256": "9c88dc239a4e8134f69a6a70546a2be7c537a5d7fa2d6605ec100786ff6340d8"
+    },
+    {
+      "id": "ART-38",
+      "path": "experience/screenshots/complete.png",
+      "review_state": "draft",
+      "sha256": "0b9bcb3ca034deacc5948472ff768b3f41bb90177f4e29587a10952613c4b18b"
+    },
+    {
+      "id": "ART-39",
+      "path": "experience/screenshots/decision.png",
+      "review_state": "draft",
+      "sha256": "c164539b1d0f20493766bdbb259eaf7b427c84a6e0eee40e5956bdae02c15f41"
+    },
+    {
+      "id": "ART-40",
+      "path": "experience/screenshots/error.png",
+      "review_state": "draft",
+      "sha256": "dce1820fa5a0c1a132832b10695b132547bae5399c5fbb43287656569e5f6cef"
+    },
+    {
+      "id": "ART-41",
+      "path": "experience/screenshots/package-mobile.png",
+      "review_state": "draft",
+      "sha256": "2e1d457a5401c63ce0e9d9a65d7568c1400eaabf02767019ef4c9f8955f3470e"
+    },
+    {
+      "id": "ART-42",
+      "path": "experience/screenshots/package.png",
+      "review_state": "draft",
+      "sha256": "0d6bc71201a4bd4d03caf9d9711177d7ddfc758daea833ca4d216e448c7895a7"
+    },
+    {
+      "id": "ART-43",
+      "path": "experience/screenshots/question-mobile.png",
+      "review_state": "draft",
+      "sha256": "08bb89e28a558785fdcff7ea0f76fd12630598a79abfcc2e9c4f6907e36fb082"
+    },
+    {
+      "id": "ART-44",
+      "path": "experience/screenshots/question.png",
+      "review_state": "draft",
+      "sha256": "60c1601489764bce8442334eca9e5cb6650b7840202ba8c7bdca81e39b2269f0"
+    },
+    {
+      "id": "ART-45",
+      "path": "experience/screenshots/resumed.png",
+      "review_state": "draft",
+      "sha256": "1a99814dd653642efaa0100b5ab9e1ec6b4d398d26114d535cba4d495eb8f901"
+    },
+    {
+      "id": "ART-46",
+      "path": "validation/evidence/browser.json",
+      "review_state": "draft",
+      "sha256": "4ae53fab97bc887fc83b3d4d732d38b208fc917709d28812cb18e4bab847f875"
+    },
+    {
+      "id": "ART-47",
+      "path": "architecture/diagrams/rendered/sources.json",
+      "review_state": "draft",
+      "sha256": "29a50fe4d84f285dd2639a9be00c49da42dabe5971c4018745c0296bbcb51a12"
+    }
+  ],
+  "records": [
+    {
+      "id": "OUT-1",
+      "kind": "outcome",
+      "path": "brd.md",
+      "refs": []
+    },
+    {
+      "id": "CUR-1",
+      "kind": "current_step",
+      "path": "transformation/current-process.md",
+      "refs": [
+        "FUT-1"
+      ]
+    },
+    {
+      "id": "CUR-2",
+      "kind": "current_step",
+      "path": "transformation/current-process.md",
+      "refs": [
+        "FUT-2"
+      ]
+    },
+    {
+      "id": "CUR-3",
+      "kind": "current_step",
+      "path": "transformation/current-process.md",
+      "refs": [
+        "FUT-3"
+      ]
+    },
+    {
+      "id": "FUT-1",
+      "kind": "future_step",
+      "path": "transformation/agentic-process.md",
+      "refs": [
+        "AGENT-Prepare"
+      ],
+      "disposition": "combine",
+      "rationale": "Remove duplicate coordination while preserving human judgment"
+    },
+    {
+      "id": "FUT-2",
+      "kind": "future_step",
+      "path": "transformation/agentic-process.md",
+      "refs": [
+        "AGENT-Prepare"
+      ],
+      "disposition": "human",
+      "rationale": "Remove duplicate coordination while preserving human judgment"
+    },
+    {
+      "id": "FUT-3",
+      "kind": "future_step",
+      "path": "transformation/agentic-process.md",
+      "refs": [
+        "AGENT-Prepare"
+      ],
+      "disposition": "simplify",
+      "rationale": "Remove duplicate coordination while preserving human judgment"
+    },
+    {
+      "id": "FR-1",
+      "kind": "requirement",
+      "path": "brd.md",
+      "refs": [
+        "EVAL-1",
+        "SCREEN-Question"
+      ]
+    },
+    {
+      "id": "FR-2",
+      "kind": "requirement",
+      "path": "brd.md",
+      "refs": [
+        "EVAL-2",
+        "SCREEN-Package"
+      ]
+    },
+    {
+      "id": "FR-3",
+      "kind": "requirement",
+      "path": "brd.md",
+      "refs": [
+        "EVAL-3",
+        "SCREEN-Package"
+      ]
+    },
+    {
+      "id": "FR-4",
+      "kind": "requirement",
+      "path": "brd.md",
+      "refs": [
+        "EVAL-4",
+        "SCREEN-Package"
+      ]
+    },
+    {
+      "id": "FR-5",
+      "kind": "requirement",
+      "path": "brd.md",
+      "refs": [
+        "EVAL-4",
+        "SCREEN-Package"
+      ]
+    },
+    {
+      "id": "NFR-1",
+      "kind": "nfr",
+      "path": "brd.md",
+      "refs": [],
+      "acceptance": "Reject unauthorized/stale writes; usable keyboard controls",
+      "owner": "engineering lead",
+      "verification": "Production integration tests and accessibility review before release"
+    },
+    {
+      "id": "NFR-2",
+      "kind": "nfr",
+      "path": "brd.md",
+      "refs": [],
+      "acceptance": "Reject unauthorized/stale writes; usable keyboard controls",
+      "owner": "engineering lead",
+      "verification": "Production integration tests and accessibility review before release"
+    },
+    {
+      "id": "AGENT-Prepare",
+      "kind": "agent",
+      "path": "transformation/agent-catalog.md",
+      "refs": [
+        "TOOL-Evidence",
+        "EVAL-1",
+        "EVAL-2",
+        "EVAL-3",
+        "EVAL-4"
+      ],
+      "authority": "Read permitted case evidence; prepare and ask; never decide",
+      "completion": "Current evidence-backed package",
+      "intervention": "Requester clarification; specialist retry/cancel",
+      "knowledge": "Case brief and attributed response",
+      "state": "Question Response WorkItem AgentRun Package"
+    },
+    {
+      "id": "HUMAN-Requester",
+      "kind": "human",
+      "path": "transformation/agentic-process.md",
+      "refs": [],
+      "authority": "Answer assigned question and revise requirement"
+    },
+    {
+      "id": "HUMAN-Specialist",
+      "kind": "human",
+      "path": "transformation/agentic-process.md",
+      "refs": [],
+      "authority": "Review, retry or cancel"
+    },
+    {
+      "id": "HUMAN-Approver",
+      "kind": "human",
+      "path": "transformation/agentic-process.md",
+      "refs": [],
+      "authority": "Final package decision"
+    },
+    {
+      "id": "TOOL-Evidence",
+      "kind": "tool",
+      "path": "transformation/agent-catalog.md",
+      "refs": [
+        "AGENT-Prepare"
+      ]
+    },
+    {
+      "id": "ENTITY-Case",
+      "kind": "entity",
+      "path": "architecture/data-model.md",
+      "refs": []
+    },
+    {
+      "id": "ENTITY-Question",
+      "kind": "entity",
+      "path": "architecture/data-model.md",
+      "refs": []
+    },
+    {
+      "id": "ENTITY-Response",
+      "kind": "entity",
+      "path": "architecture/data-model.md",
+      "refs": []
+    },
+    {
+      "id": "ENTITY-Package",
+      "kind": "entity",
+      "path": "architecture/data-model.md",
+      "refs": []
+    },
+    {
+      "id": "ENTITY-Decision",
+      "kind": "entity",
+      "path": "architecture/data-model.md",
+      "refs": []
+    },
+    {
+      "id": "ENTITY-Work",
+      "kind": "entity",
+      "path": "architecture/data-model.md",
+      "refs": []
+    },
+    {
+      "id": "FLOW-Clarify",
+      "kind": "flow",
+      "path": "architecture/data-model.md",
+      "refs": [
+        "OP-Answer",
+        "ENTITY-Response"
+      ]
+    },
+    {
+      "id": "FLOW-Prepare",
+      "kind": "flow",
+      "path": "architecture/data-model.md",
+      "refs": [
+        "OP-Prepare",
+        "ENTITY-Package"
+      ]
+    },
+    {
+      "id": "FLOW-Decide",
+      "kind": "flow",
+      "path": "architecture/data-model.md",
+      "refs": [
+        "OP-Decide",
+        "ENTITY-Decision"
+      ]
+    },
+    {
+      "id": "FLOW-Recover",
+      "kind": "flow",
+      "path": "architecture/data-model.md",
+      "refs": [
+        "OP-Retry",
+        "ENTITY-Work"
+      ]
+    },
+    {
+      "id": "FLOW-Revise",
+      "kind": "flow",
+      "path": "architecture/data-model.md",
+      "refs": [
+        "OP-Revise",
+        "ENTITY-Case"
+      ]
+    },
+    {
+      "id": "OP-Answer",
+      "kind": "operation",
+      "path": "architecture/contracts/operations.json",
+      "refs": [],
+      "authority": "requester",
+      "input": "questionId, text, expectedVersion, idempotencyKey",
+      "output": "Response and continuation",
+      "errors": "UNAUTHORIZED, STALE_VERSION, EMPTY_RESPONSE",
+      "idempotency": "operation key preserves prior receipt"
+    },
+    {
+      "id": "OP-Prepare",
+      "kind": "operation",
+      "path": "architecture/contracts/operations.json",
+      "refs": [],
+      "authority": "agent",
+      "input": "caseId, responseId, sourceVersion",
+      "output": "Package and ToolReceipt",
+      "errors": "TOOL_UNAVAILABLE, STALE_VERSION",
+      "idempotency": "operation key preserves prior receipt"
+    },
+    {
+      "id": "OP-Review",
+      "kind": "operation",
+      "path": "architecture/contracts/operations.json",
+      "refs": [],
+      "authority": "specialist",
+      "input": "packageId, expectedVersion",
+      "output": "Review binding",
+      "errors": "UNAUTHORIZED, STALE_VERSION",
+      "idempotency": "operation key preserves prior receipt"
+    },
+    {
+      "id": "OP-Decide",
+      "kind": "operation",
+      "path": "architecture/contracts/operations.json",
+      "refs": [],
+      "authority": "approver",
+      "input": "packageId, outcome, expectedVersion",
+      "output": "Decision",
+      "errors": "UNAUTHORIZED, NOT_REVIEWED, STALE_VERSION",
+      "idempotency": "operation key preserves prior receipt"
+    },
+    {
+      "id": "OP-Revise",
+      "kind": "operation",
+      "path": "architecture/contracts/operations.json",
+      "refs": [],
+      "authority": "requester",
+      "input": "caseId, requirement, expectedVersion",
+      "output": "Revised Case and invalidated review",
+      "errors": "UNAUTHORIZED, STALE_VERSION",
+      "idempotency": "operation key preserves prior receipt"
+    },
+    {
+      "id": "OP-Retry",
+      "kind": "operation",
+      "path": "architecture/contracts/operations.json",
+      "refs": [],
+      "authority": "specialist",
+      "input": "workId, expectedVersion",
+      "output": "New AgentRun",
+      "errors": "UNAUTHORIZED, RETRY_EXHAUSTED",
+      "idempotency": "operation key preserves prior receipt"
+    },
+    {
+      "id": "OP-Cancel",
+      "kind": "operation",
+      "path": "architecture/contracts/operations.json",
+      "refs": [],
+      "authority": "specialist",
+      "input": "workId, expectedVersion",
+      "output": "Cancelled WorkItem",
+      "errors": "UNAUTHORIZED, STALE_VERSION",
+      "idempotency": "operation key preserves prior receipt"
+    },
+    {
+      "id": "EVAL-1",
+      "kind": "evaluation",
+      "path": "transformation/evaluation-plan.md",
+      "refs": [
+        "FR-1",
+        "AGENT-Prepare"
+      ]
+    },
+    {
+      "id": "EVAL-2",
+      "kind": "evaluation",
+      "path": "transformation/evaluation-plan.md",
+      "refs": [
+        "FR-2",
+        "AGENT-Prepare"
+      ]
+    },
+    {
+      "id": "EVAL-3",
+      "kind": "evaluation",
+      "path": "transformation/evaluation-plan.md",
+      "refs": [
+        "FR-3",
+        "AGENT-Prepare"
+      ]
+    },
+    {
+      "id": "EVAL-4",
+      "kind": "evaluation",
+      "path": "transformation/evaluation-plan.md",
+      "refs": [
+        "FR-4",
+        "AGENT-Prepare"
+      ]
+    },
+    {
+      "id": "SCREEN-Question",
+      "kind": "screen",
+      "path": "experience/journeys.md",
+      "refs": [
+        "FR-1"
+      ]
+    },
+    {
+      "id": "SCREEN-Resumed",
+      "kind": "screen",
+      "path": "experience/journeys.md",
+      "refs": [
+        "FR-1"
+      ]
+    },
+    {
+      "id": "SCREEN-Package",
+      "kind": "screen",
+      "path": "experience/journeys.md",
+      "refs": [
+        "FR-1"
+      ]
+    },
+    {
+      "id": "SCREEN-Decision",
+      "kind": "screen",
+      "path": "experience/journeys.md",
+      "refs": [
+        "FR-1"
+      ]
+    },
+    {
+      "id": "SCREEN-Complete",
+      "kind": "screen",
+      "path": "experience/journeys.md",
+      "refs": [
+        "FR-1"
+      ]
+    },
+    {
+      "id": "SCREEN-Error",
+      "kind": "screen",
+      "path": "experience/journeys.md",
+      "refs": [
+        "FR-1"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EVID-1",
+      "evaluation": "EVAL-1",
+      "path": "validation/evidence/browser.json",
+      "status": "passed",
+      "level": "simulation",
+      "sources": {
+        "experience/prototype/app.js": "6d6056eecc8cdae0e20684b5fbf43694e2da40896036a0cbfc5f728a1f1bd95e",
+        "experience/prototype/index.html": "5e39b4ecc3fde4ef6a3c17a535fac6bba8499c2c304f3ea3267b5fbf7c1aa081"
+      }
+    },
+    {
+      "id": "EVID-2",
+      "evaluation": "EVAL-2",
+      "path": "validation/evidence/browser.json",
+      "status": "passed",
+      "level": "simulation",
+      "sources": {
+        "experience/prototype/app.js": "6d6056eecc8cdae0e20684b5fbf43694e2da40896036a0cbfc5f728a1f1bd95e",
+        "experience/prototype/index.html": "5e39b4ecc3fde4ef6a3c17a535fac6bba8499c2c304f3ea3267b5fbf7c1aa081"
+      }
+    },
+    {
+      "id": "EVID-3",
+      "evaluation": "EVAL-3",
+      "path": "validation/evidence/browser.json",
+      "status": "passed",
+      "level": "simulation",
+      "sources": {
+        "experience/prototype/app.js": "6d6056eecc8cdae0e20684b5fbf43694e2da40896036a0cbfc5f728a1f1bd95e",
+        "experience/prototype/index.html": "5e39b4ecc3fde4ef6a3c17a535fac6bba8499c2c304f3ea3267b5fbf7c1aa081"
+      }
+    },
+    {
+      "id": "EVID-4",
+      "evaluation": "EVAL-4",
+      "path": "validation/evidence/browser.json",
+      "status": "passed",
+      "level": "simulation",
+      "sources": {
+        "experience/prototype/app.js": "6d6056eecc8cdae0e20684b5fbf43694e2da40896036a0cbfc5f728a1f1bd95e",
+        "experience/prototype/index.html": "5e39b4ecc3fde4ef6a3c17a535fac6bba8499c2c304f3ea3267b5fbf7c1aa081"
+      }
+    }
+  ],
+  "reviews": [],
+  "questions": [
+    {
+      "id": "Q-1",
+      "owner": "business owner and product",
+      "blocking": true,
+      "status": "open"
+    }
+  ]
+}

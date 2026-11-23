@@ -1,0 +1,6 @@
+include AGENTS.md CONTRIBUTING.md LICENSE NOTICE.md package.json package-lock.json
+recursive-include docs *.md *.json *.yml
+recursive-include scripts *.py *.mjs
+recursive-include examples *.md *.json *.mmd *.svg *.png *.html *.js
+recursive-include tests *.py
+recursive-include designkit/assets *.md *.json *.mmd

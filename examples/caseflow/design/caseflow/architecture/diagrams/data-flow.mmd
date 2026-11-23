@@ -1,0 +1,14 @@
+flowchart TD
+ R[Requester] -->|questionId text expectedVersion| A[OP-Answer]
+ A -->|attributed Response| S[(Case state)]
+ S -->|case and response| P[AGENT-Prepare]
+ P -->|case scoped query| T[TOOL-Evidence]
+ T -->|receipt or unavailable| P
+ P -->|derived Package| S
+ S -->|package revision| H[Specialist OP-Review]
+ H -->|review binding| S
+ S -->|reviewed Package| D[Approver OP-Decide]
+ D -->|Decision| S
+ H -->|retry or cancellation| P
+ R -->|revised requirement and version| V[OP-Revise]
+ V -->|new Case version and invalidated review| S

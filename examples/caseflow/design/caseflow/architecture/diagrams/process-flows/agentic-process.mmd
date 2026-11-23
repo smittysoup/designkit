@@ -1,0 +1,15 @@
+flowchart TD
+ A[Case triggers preparation] --> B[Agent gathers context]
+ B --> C{Facts complete?}
+ C -->|no| Q[Persist question and wait]
+ Q -->|authorized answer| B
+ C -->|yes| T[Simulated evidence tool]
+ T -->|receipt| P[Reviewable package]
+ T -->|unavailable| E[Stop and preserve context]
+ E -->|specialist retry once| B
+ E -->|cancel| X[Cancelled]
+ P --> H[Specialist review]
+ H --> D[Approver decision]
+ D -->|approve| Z[Decision recorded]
+ D -->|return| Q
+ H -->|requester revision invalidates review| B

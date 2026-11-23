@@ -1,0 +1,413 @@
+[
+  {
+    "id": "OUT-1",
+    "kind": "outcome",
+    "path": "brd.md",
+    "refs": []
+  },
+  {
+    "id": "CUR-1",
+    "kind": "current_step",
+    "path": "transformation/current-process.md",
+    "refs": [
+      "FUT-1"
+    ]
+  },
+  {
+    "id": "CUR-2",
+    "kind": "current_step",
+    "path": "transformation/current-process.md",
+    "refs": [
+      "FUT-2"
+    ]
+  },
+  {
+    "id": "CUR-3",
+    "kind": "current_step",
+    "path": "transformation/current-process.md",
+    "refs": [
+      "FUT-3"
+    ]
+  },
+  {
+    "id": "FUT-1",
+    "kind": "future_step",
+    "path": "transformation/agentic-process.md",
+    "refs": [
+      "AGENT-Prepare"
+    ],
+    "disposition": "combine",
+    "rationale": "Remove duplicate coordination while preserving human judgment"
+  },
+  {
+    "id": "FUT-2",
+    "kind": "future_step",
+    "path": "transformation/agentic-process.md",
+    "refs": [
+      "AGENT-Prepare"
+    ],
+    "disposition": "human",
+    "rationale": "Remove duplicate coordination while preserving human judgment"
+  },
+  {
+    "id": "FUT-3",
+    "kind": "future_step",
+    "path": "transformation/agentic-process.md",
+    "refs": [
+      "AGENT-Prepare"
+    ],
+    "disposition": "simplify",
+    "rationale": "Remove duplicate coordination while preserving human judgment"
+  },
+  {
+    "id": "FR-1",
+    "kind": "requirement",
+    "path": "brd.md",
+    "refs": [
+      "EVAL-1",
+      "SCREEN-Question"
+    ]
+  },
+  {
+    "id": "FR-2",
+    "kind": "requirement",
+    "path": "brd.md",
+    "refs": [
+      "EVAL-2",
+      "SCREEN-Package"
+    ]
+  },
+  {
+    "id": "FR-3",
+    "kind": "requirement",
+    "path": "brd.md",
+    "refs": [
+      "EVAL-3",
+      "SCREEN-Package"
+    ]
+  },
+  {
+    "id": "FR-4",
+    "kind": "requirement",
+    "path": "brd.md",
+    "refs": [
+      "EVAL-4",
+      "SCREEN-Package"
+    ]
+  },
+  {
+    "id": "FR-5",
+    "kind": "requirement",
+    "path": "brd.md",
+    "refs": [
+      "EVAL-4",
+      "SCREEN-Package"
+    ]
+  },
+  {
+    "id": "NFR-1",
+    "kind": "nfr",
+    "path": "brd.md",
+    "refs": [],
+    "acceptance": "Reject unauthorized/stale writes; usable keyboard controls",
+    "owner": "engineering lead",
+    "verification": "Production integration tests and accessibility review before release"
+  },
+  {
+    "id": "NFR-2",
+    "kind": "nfr",
+    "path": "brd.md",
+    "refs": [],
+    "acceptance": "Reject unauthorized/stale writes; usable keyboard controls",
+    "owner": "engineering lead",
+    "verification": "Production integration tests and accessibility review before release"
+  },
+  {
+    "id": "AGENT-Prepare",
+    "kind": "agent",
+    "path": "transformation/agent-catalog.md",
+    "refs": [
+      "TOOL-Evidence",
+      "EVAL-1",
+      "EVAL-2",
+      "EVAL-3",
+      "EVAL-4"
+    ],
+    "authority": "Read permitted case evidence; prepare and ask; never decide",
+    "completion": "Current evidence-backed package",
+    "intervention": "Requester clarification; specialist retry/cancel",
+    "knowledge": "Case brief and attributed response",
+    "state": "Question Response WorkItem AgentRun Package"
+  },
+  {
+    "id": "HUMAN-Requester",
+    "kind": "human",
+    "path": "transformation/agentic-process.md",
+    "refs": [],
+    "authority": "Answer assigned question and revise requirement"
+  },
+  {
+    "id": "HUMAN-Specialist",
+    "kind": "human",
+    "path": "transformation/agentic-process.md",
+    "refs": [],
+    "authority": "Review, retry or cancel"
+  },
+  {
+    "id": "HUMAN-Approver",
+    "kind": "human",
+    "path": "transformation/agentic-process.md",
+    "refs": [],
+    "authority": "Final package decision"
+  },
+  {
+    "id": "TOOL-Evidence",
+    "kind": "tool",
+    "path": "transformation/agent-catalog.md",
+    "refs": [
+      "AGENT-Prepare"
+    ]
+  },
+  {
+    "id": "ENTITY-Case",
+    "kind": "entity",
+    "path": "architecture/data-model.md",
+    "refs": []
+  },
+  {
+    "id": "ENTITY-Question",
+    "kind": "entity",
+    "path": "architecture/data-model.md",
+    "refs": []
+  },
+  {
+    "id": "ENTITY-Response",
+    "kind": "entity",
+    "path": "architecture/data-model.md",
+    "refs": []
+  },
+  {
+    "id": "ENTITY-Package",
+    "kind": "entity",
+    "path": "architecture/data-model.md",
+    "refs": []
+  },
+  {
+    "id": "ENTITY-Decision",
+    "kind": "entity",
+    "path": "architecture/data-model.md",
+    "refs": []
+  },
+  {
+    "id": "ENTITY-Work",
+    "kind": "entity",
+    "path": "architecture/data-model.md",
+    "refs": []
+  },
+  {
+    "id": "FLOW-Clarify",
+    "kind": "flow",
+    "path": "architecture/data-model.md",
+    "refs": [
+      "OP-Answer",
+      "ENTITY-Response"
+    ]
+  },
+  {
+    "id": "FLOW-Prepare",
+    "kind": "flow",
+    "path": "architecture/data-model.md",
+    "refs": [
+      "OP-Prepare",
+      "ENTITY-Package"
+    ]
+  },
+  {
+    "id": "FLOW-Decide",
+    "kind": "flow",
+    "path": "architecture/data-model.md",
+    "refs": [
+      "OP-Decide",
+      "ENTITY-Decision"
+    ]
+  },
+  {
+    "id": "FLOW-Recover",
+    "kind": "flow",
+    "path": "architecture/data-model.md",
+    "refs": [
+      "OP-Retry",
+      "ENTITY-Work"
+    ]
+  },
+  {
+    "id": "FLOW-Revise",
+    "kind": "flow",
+    "path": "architecture/data-model.md",
+    "refs": [
+      "OP-Revise",
+      "ENTITY-Case"
+    ]
+  },
+  {
+    "id": "OP-Answer",
+    "kind": "operation",
+    "path": "architecture/contracts/operations.json",
+    "refs": [],
+    "authority": "requester",
+    "input": "questionId, text, expectedVersion, idempotencyKey",
+    "output": "Response and continuation",
+    "errors": "UNAUTHORIZED, STALE_VERSION, EMPTY_RESPONSE",
+    "idempotency": "operation key preserves prior receipt"
+  },
+  {
+    "id": "OP-Prepare",
+    "kind": "operation",
+    "path": "architecture/contracts/operations.json",
+    "refs": [],
+    "authority": "agent",
+    "input": "caseId, responseId, sourceVersion",
+    "output": "Package and ToolReceipt",
+    "errors": "TOOL_UNAVAILABLE, STALE_VERSION",
+    "idempotency": "operation key preserves prior receipt"
+  },
+  {
+    "id": "OP-Review",
+    "kind": "operation",
+    "path": "architecture/contracts/operations.json",
+    "refs": [],
+    "authority": "specialist",
+    "input": "packageId, expectedVersion",
+    "output": "Review binding",
+    "errors": "UNAUTHORIZED, STALE_VERSION",
+    "idempotency": "operation key preserves prior receipt"
+  },
+  {
+    "id": "OP-Decide",
+    "kind": "operation",
+    "path": "architecture/contracts/operations.json",
+    "refs": [],
+    "authority": "approver",
+    "input": "packageId, outcome, expectedVersion",
+    "output": "Decision",
+    "errors": "UNAUTHORIZED, NOT_REVIEWED, STALE_VERSION",
+    "idempotency": "operation key preserves prior receipt"
+  },
+  {
+    "id": "OP-Revise",
+    "kind": "operation",
+    "path": "architecture/contracts/operations.json",
+    "refs": [],
+    "authority": "requester",
+    "input": "caseId, requirement, expectedVersion",
+    "output": "Revised Case and invalidated review",
+    "errors": "UNAUTHORIZED, STALE_VERSION",
+    "idempotency": "operation key preserves prior receipt"
+  },
+  {
+    "id": "OP-Retry",
+    "kind": "operation",
+    "path": "architecture/contracts/operations.json",
+    "refs": [],
+    "authority": "specialist",
+    "input": "workId, expectedVersion",
+    "output": "New AgentRun",
+    "errors": "UNAUTHORIZED, RETRY_EXHAUSTED",
+    "idempotency": "operation key preserves prior receipt"
+  },
+  {
+    "id": "OP-Cancel",
+    "kind": "operation",
+    "path": "architecture/contracts/operations.json",
+    "refs": [],
+    "authority": "specialist",
+    "input": "workId, expectedVersion",
+    "output": "Cancelled WorkItem",
+    "errors": "UNAUTHORIZED, STALE_VERSION",
+    "idempotency": "operation key preserves prior receipt"
+  },
+  {
+    "id": "EVAL-1",
+    "kind": "evaluation",
+    "path": "transformation/evaluation-plan.md",
+    "refs": [
+      "FR-1",
+      "AGENT-Prepare"
+    ]
+  },
+  {
+    "id": "EVAL-2",
+    "kind": "evaluation",
+    "path": "transformation/evaluation-plan.md",
+    "refs": [
+      "FR-2",
+      "AGENT-Prepare"
+    ]
+  },
+  {
+    "id": "EVAL-3",
+    "kind": "evaluation",
+    "path": "transformation/evaluation-plan.md",
+    "refs": [
+      "FR-3",
+      "AGENT-Prepare"
+    ]
+  },
+  {
+    "id": "EVAL-4",
+    "kind": "evaluation",
+    "path": "transformation/evaluation-plan.md",
+    "refs": [
+      "FR-4",
+      "AGENT-Prepare"
+    ]
+  },
+  {
+    "id": "SCREEN-Question",
+    "kind": "screen",
+    "path": "experience/journeys.md",
+    "refs": [
+      "FR-1"
+    ]
+  },
+  {
+    "id": "SCREEN-Resumed",
+    "kind": "screen",
+    "path": "experience/journeys.md",
+    "refs": [
+      "FR-1"
+    ]
+  },
+  {
+    "id": "SCREEN-Package",
+    "kind": "screen",
+    "path": "experience/journeys.md",
+    "refs": [
+      "FR-1"
+    ]
+  },
+  {
+    "id": "SCREEN-Decision",
+    "kind": "screen",
+    "path": "experience/journeys.md",
+    "refs": [
+      "FR-1"
+    ]
+  },
+  {
+    "id": "SCREEN-Complete",
+    "kind": "screen",
+    "path": "experience/journeys.md",
+    "refs": [
+      "FR-1"
+    ]
+  },
+  {
+    "id": "SCREEN-Error",
+    "kind": "screen",
+    "path": "experience/journeys.md",
+    "refs": [
+      "FR-1"
+    ]
+  }
+]

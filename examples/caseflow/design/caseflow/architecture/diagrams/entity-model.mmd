@@ -1,0 +1,9 @@
+erDiagram
+ Case ||--o{ Question : asks
+ Question ||--o| Response : receives
+ Case ||--o{ Package : versions
+ Package ||--o| Decision : records
+ Case ||--o{ WorkItem : requires
+ WorkDefinition ||--o{ WorkItem : defines
+ WorkItem ||--o{ AgentRun : executes
+ AgentRun ||--o{ ToolReceipt : records

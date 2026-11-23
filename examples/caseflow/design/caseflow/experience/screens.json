@@ -1,0 +1,154 @@
+[
+  {
+    "id": "SCREEN-Question",
+    "state": "Question",
+    "route": "/",
+    "fixture": "CASE-104",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "device": "emulated viewport",
+    "captured_at": "2026-11-23T18:35:56.846Z",
+    "capture": "experience/screenshots/question.png",
+    "source": "experience/prototype/app.js",
+    "source_sha256": "6d6056eecc8cdae0e20684b5fbf43694e2da40896036a0cbfc5f728a1f1bd95e",
+    "requirements": [
+      "FR-1"
+    ],
+    "html_source_sha256": "5e39b4ecc3fde4ef6a3c17a535fac6bba8499c2c304f3ea3267b5fbf7c1aa081"
+  },
+  {
+    "id": "SCREEN-Resumed",
+    "state": "Resumed",
+    "route": "/",
+    "fixture": "CASE-104",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "device": "emulated viewport",
+    "captured_at": "2026-11-23T18:35:57.012Z",
+    "capture": "experience/screenshots/resumed.png",
+    "source": "experience/prototype/app.js",
+    "source_sha256": "6d6056eecc8cdae0e20684b5fbf43694e2da40896036a0cbfc5f728a1f1bd95e",
+    "requirements": [
+      "FR-1"
+    ],
+    "html_source_sha256": "5e39b4ecc3fde4ef6a3c17a535fac6bba8499c2c304f3ea3267b5fbf7c1aa081"
+  },
+  {
+    "id": "SCREEN-Package",
+    "state": "Package",
+    "route": "/",
+    "fixture": "CASE-104",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "device": "emulated viewport",
+    "captured_at": "2026-11-23T18:35:57.167Z",
+    "capture": "experience/screenshots/package.png",
+    "source": "experience/prototype/app.js",
+    "source_sha256": "6d6056eecc8cdae0e20684b5fbf43694e2da40896036a0cbfc5f728a1f1bd95e",
+    "requirements": [
+      "FR-1"
+    ],
+    "html_source_sha256": "5e39b4ecc3fde4ef6a3c17a535fac6bba8499c2c304f3ea3267b5fbf7c1aa081"
+  },
+  {
+    "id": "SCREEN-Decision",
+    "state": "Decision",
+    "route": "/",
+    "fixture": "CASE-104",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "device": "emulated viewport",
+    "captured_at": "2026-11-23T18:35:57.268Z",
+    "capture": "experience/screenshots/decision.png",
+    "source": "experience/prototype/app.js",
+    "source_sha256": "6d6056eecc8cdae0e20684b5fbf43694e2da40896036a0cbfc5f728a1f1bd95e",
+    "requirements": [
+      "FR-1"
+    ],
+    "html_source_sha256": "5e39b4ecc3fde4ef6a3c17a535fac6bba8499c2c304f3ea3267b5fbf7c1aa081"
+  },
+  {
+    "id": "SCREEN-Complete",
+    "state": "Complete",
+    "route": "/",
+    "fixture": "CASE-104",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "device": "emulated viewport",
+    "captured_at": "2026-11-23T18:35:57.527Z",
+    "capture": "experience/screenshots/complete.png",
+    "source": "experience/prototype/app.js",
+    "source_sha256": "6d6056eecc8cdae0e20684b5fbf43694e2da40896036a0cbfc5f728a1f1bd95e",
+    "requirements": [
+      "FR-1"
+    ],
+    "html_source_sha256": "5e39b4ecc3fde4ef6a3c17a535fac6bba8499c2c304f3ea3267b5fbf7c1aa081"
+  },
+  {
+    "id": "SCREEN-Error",
+    "state": "Error",
+    "route": "/",
+    "fixture": "CASE-104",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "device": "emulated viewport",
+    "captured_at": "2026-11-23T18:35:57.667Z",
+    "capture": "experience/screenshots/error.png",
+    "source": "experience/prototype/app.js",
+    "source_sha256": "6d6056eecc8cdae0e20684b5fbf43694e2da40896036a0cbfc5f728a1f1bd95e",
+    "requirements": [
+      "FR-1"
+    ],
+    "html_source_sha256": "5e39b4ecc3fde4ef6a3c17a535fac6bba8499c2c304f3ea3267b5fbf7c1aa081"
+  },
+  {
+    "id": "SCREEN-Question",
+    "state": "Question",
+    "route": "/",
+    "fixture": "CASE-104",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "device": "emulated viewport",
+    "captured_at": "2026-11-23T18:35:57.861Z",
+    "capture": "experience/screenshots/question-mobile.png",
+    "source": "experience/prototype/app.js",
+    "source_sha256": "6d6056eecc8cdae0e20684b5fbf43694e2da40896036a0cbfc5f728a1f1bd95e",
+    "requirements": [
+      "FR-1"
+    ],
+    "html_source_sha256": "5e39b4ecc3fde4ef6a3c17a535fac6bba8499c2c304f3ea3267b5fbf7c1aa081"
+  },
+  {
+    "id": "SCREEN-Package",
+    "state": "Package",
+    "route": "/",
+    "fixture": "CASE-104",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "device": "emulated viewport",
+    "captured_at": "2026-11-23T18:35:57.979Z",
+    "capture": "experience/screenshots/package-mobile.png",
+    "source": "experience/prototype/app.js",
+    "source_sha256": "6d6056eecc8cdae0e20684b5fbf43694e2da40896036a0cbfc5f728a1f1bd95e",
+    "requirements": [
+      "FR-1"
+    ],
+    "html_source_sha256": "5e39b4ecc3fde4ef6a3c17a535fac6bba8499c2c304f3ea3267b5fbf7c1aa081"
+  }
+]

@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "toolkit_version": "0.1.0",
+  "initiative": {
+    "id": "new",
+    "process": "TODO",
+    "outcome": "TODO",
+    "scope": "TODO",
+    "synthetic": false
+  },
+  "artifacts": [
+    {
+      "id": "ART-1",
+      "path": "brd.md",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-2",
+      "path": "decisions.md",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-3",
+      "path": "open-questions.md",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-4",
+      "path": "transformation/current-process.md",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-5",
+      "path": "transformation/agentic-process.md",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-6",
+      "path": "transformation/agent-catalog.md",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-7",
+      "path": "transformation/evaluation-plan.md",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-8",
+      "path": "experience/journeys.md",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-9",
+      "path": "experience/design-guidance.md",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-10",
+      "path": "architecture/data-model.md",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-11",
+      "path": "architecture/state-transitions.md",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-12",
+      "path": "architecture/contracts/README.md",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-13",
+      "path": "validation/report.md",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-14",
+      "path": "handoff/speckit-input.md",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-15",
+      "path": "handoff/reconciliation.md",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-16",
+      "path": "constitution.md",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-17",
+      "path": "architecture/diagrams/entity-model.mmd",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-18",
+      "path": "architecture/diagrams/data-flow.mmd",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-19",
+      "path": "architecture/diagrams/process-flows/current-process.mmd",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-20",
+      "path": "architecture/diagrams/process-flows/agentic-process.mmd",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-21",
+      "path": "architecture/contracts/operations.json",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-22",
+      "path": "experience/screens.json",
+      "sha256": null,
+      "review_state": "draft"
+    },
+    {
+      "id": "ART-23",
+      "path": "handoff/traceability.json",
+      "sha256": null,
+      "review_state": "draft"
+    }
+  ],
+  "records": [],
+  "evidence": [],
+  "reviews": [],
+  "questions": [
+    {
+      "id": "Q-1",
+      "owner": "business owner (identify person)",
+      "blocking": true,
+      "status": "open"
+    }
+  ]
+}

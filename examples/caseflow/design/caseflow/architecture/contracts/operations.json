@@ -1,0 +1,118 @@
+{
+  "version": "1.0",
+  "transport": "logical callable interfaces; no HTTP service claimed",
+  "operations": [
+    {
+      "id": "OP-Answer",
+      "caller": "requester",
+      "input": [
+        "questionId",
+        "text",
+        "expectedVersion",
+        "idempotencyKey"
+      ],
+      "output": "Response and continuation",
+      "errors": [
+        "UNAUTHORIZED",
+        "STALE_VERSION",
+        "EMPTY_RESPONSE"
+      ],
+      "idempotency": "Store operation key and prior result; duplicate must not create another continuation",
+      "simulation": "Client UI checks only; production enforcement required"
+    },
+    {
+      "id": "OP-Prepare",
+      "caller": "agent",
+      "input": [
+        "caseId",
+        "responseId",
+        "sourceVersion"
+      ],
+      "output": "Package and ToolReceipt",
+      "errors": [
+        "TOOL_UNAVAILABLE",
+        "STALE_VERSION"
+      ],
+      "idempotency": "Store operation key and prior result; duplicate must not create another continuation",
+      "simulation": "Client UI checks only; production enforcement required"
+    },
+    {
+      "id": "OP-Review",
+      "caller": "specialist",
+      "input": [
+        "packageId",
+        "expectedVersion"
+      ],
+      "output": "Review binding",
+      "errors": [
+        "UNAUTHORIZED",
+        "STALE_VERSION"
+      ],
+      "idempotency": "Store operation key and prior result; duplicate must not create another continuation",
+      "simulation": "Client UI checks only; production enforcement required"
+    },
+    {
+      "id": "OP-Decide",
+      "caller": "approver",
+      "input": [
+        "packageId",
+        "outcome",
+        "expectedVersion"
+      ],
+      "output": "Decision",
+      "errors": [
+        "UNAUTHORIZED",
+        "NOT_REVIEWED",
+        "STALE_VERSION"
+      ],
+      "idempotency": "Store operation key and prior result; duplicate must not create another continuation",
+      "simulation": "Client UI checks only; production enforcement required"
+    },
+    {
+      "id": "OP-Revise",
+      "caller": "requester",
+      "input": [
+        "caseId",
+        "requirement",
+        "expectedVersion"
+      ],
+      "output": "Revised Case and invalidated review",
+      "errors": [
+        "UNAUTHORIZED",
+        "STALE_VERSION"
+      ],
+      "idempotency": "Store operation key and prior result; duplicate must not create another continuation",
+      "simulation": "Client UI checks only; production enforcement required"
+    },
+    {
+      "id": "OP-Retry",
+      "caller": "specialist",
+      "input": [
+        "workId",
+        "expectedVersion"
+      ],
+      "output": "New AgentRun",
+      "errors": [
+        "UNAUTHORIZED",
+        "RETRY_EXHAUSTED"
+      ],
+      "idempotency": "Store operation key and prior result; duplicate must not create another continuation",
+      "simulation": "Client UI checks only; production enforcement required"
+    },
+    {
+      "id": "OP-Cancel",
+      "caller": "specialist",
+      "input": [
+        "workId",
+        "expectedVersion"
+      ],
+      "output": "Cancelled WorkItem",
+      "errors": [
+        "UNAUTHORIZED",
+        "STALE_VERSION"
+      ],
+      "idempotency": "Store operation key and prior result; duplicate must not create another continuation",
+      "simulation": "Client UI checks only; production enforcement required"
+    }
+  ]
+}

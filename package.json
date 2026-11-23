@@ -1,0 +1,1 @@
+{"private":true,"type":"module","scripts":{"test:browser":"node scripts/browser-check.mjs","diagrams":"node scripts/render-diagrams.mjs"},"devDependencies":{"playwright":"1.58.2","@mermaid-js/mermaid-cli":"11.12.0"}}
